@@ -162,18 +162,20 @@ header{
     }
 
 }
-footer{
-    width: 100%;
-    color: #fff;
-    display: flex;
-    gap: 4rem;
-    margin: 2% 2% 2% 2%;
-}
-.footer{
+footer a{
+    color: #fdfafa;
     background-color: #000;
-    margin: 5%;
-    margin-bottom: 0;
+
 }
+.footer1{
+    display: flex;
+    gap: 14rem;
+    float: left;
+    text-align: center;
+    margin-left: 40%;
+    margin-bottom: 2%;
+}
+
 @media (max-width:1090px){
     footer{
      width: 10%;
